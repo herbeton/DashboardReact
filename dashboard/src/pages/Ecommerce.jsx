@@ -15,7 +15,7 @@ const Ecommerce = () => {
           <div className="flex justify-between items-center">
             <div>
               <p className="font-bold text-gray-400">Earnings</p>
-              <p className="text-2x1">$63,448.78</p>
+              <p className="text-2xl">$63,448.78</p>
             </div>
           </div>
           <div className="mt-6">
@@ -45,7 +45,9 @@ const Ecommerce = () => {
             </div>
           ))}
         </div>
-        <div className="flex gap-10 flex-wrap justify-center">
+        
+      </div>
+      <div className="flex gap-10 flex-wrap justify-center">
           <div className="bg-white dark:text-grey-200
           dark:bg-secondary-dark-bg m-3 rounded-2xl md:w-780">
             <div className="flex justify-between">
@@ -89,7 +91,6 @@ const Ecommerce = () => {
             </div>
           </div>
         </div>
-      </div>
     </div>
   )
 }
